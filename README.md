@@ -205,5 +205,3 @@ Khi thành công, giao diện sẽ mở ra danh sách danh bạ đã nhập, đ�
 <p align="center">
   <img src="https://user-images.githubusercontent.com/31346263/187589965-b56acebd-5f3e-4d2e-b98e-83e23515e0f8.png"/>
 </p>
-
-Cảm ơn quý thầy cô đã tin dùng sản phẩm!
