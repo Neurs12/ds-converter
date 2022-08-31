@@ -1,3 +1,4 @@
+import 'package:window_size/window_size.dart';
 import 'package:flutter/material.dart';
 import 'mainui.dart';
 
@@ -23,6 +24,7 @@ class NavigateScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      setWindowTitle("DS Converter");
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => const UI()));
     });
