@@ -7,7 +7,7 @@ Vì VNEdu và SMAS không có tính năng tích hợp sẵn, làm khó khăn cho
 Chọn bản mới nhất ở phần "Releases" bên phải:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187576730-f3db8eae-efe5-4e1c-ac1d-c1f5deef3210.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187590170-b48a5cfb-3ad9-4995-b455-32a5d743aa78.png"/>
 </p>
 
 Bấm tải file "DS.Converter.zip":
