@@ -140,7 +140,7 @@ Khi đã chọn xong, phần mềm sẽ lưu file danh bạ và thông báo cho 
 Thầy cô đăng nhập vào [Google Contacts](https://contacts.google.com/) trùng với tài khoản Gmail có trên điện thoại sẽ có giao diện:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187587473-076597a5-110e-4f67-b7c3-e91f267ef218.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187591133-40133248-7f1e-4922-8881-ee0ea7f2c2eb.png"/>
 </p>
 
 Ở thanh công cụ trái, thầy chọn "Nhập":
