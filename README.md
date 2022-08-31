@@ -46,25 +46,25 @@ Vào phần "Giáo viên" ở góc trái màn hình sau khi đăng nhập:
 Khi đã vào giao diện quản lý, chọn "Quản lý lớp học" sẽ mở ra cửa sổ:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187581217-53c90c90-e270-4b50-8aac-f439314b63c3.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187591481-342118a0-192f-43d9-bc2d-5d8d90edfbd1.png"/>
 </p>
 
 Thầy cô tìm lớp chủ nhiệm của mình, trong ví dụ này là lớp 8D:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187581736-0e2181e9-f1ac-414a-8b96-44ae45965386.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187591627-33f97935-1d85-4b37-b624-688243e79356.png"/>
 </p>
 
 Rồi bấm vào biểu tượng ![ảnh](https://user-images.githubusercontent.com/31346263/187581903-4f4f1fea-256b-4b22-aae4-367aefb0483b.png) ở hàng dọc "Học sinh" tương ứng với lớp thầy cô đã chọn sẽ mở ra một cửa sổ danh sách học sinh:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187582646-f3455c80-397a-4f69-a551-144e66f64759.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187591770-4b37ec6a-73cb-4ee1-a03d-1c16a50f152e.png"/>
 </p>
 
 Ở góc phải có menu "Nhập xuất", thầy cô bấm vào và "Xuất ra Excel - Mẫu 1":
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187583034-3557fb36-be2d-4b10-aaea-35efbaa9afd8.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187591918-f0c113a1-571a-4758-afd6-c26a65e9c68a.png"/>
 </p>
 
 VNEdu sẽ xuất file Excel và tải file về máy thầy cô:
