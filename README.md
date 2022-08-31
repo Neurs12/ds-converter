@@ -106,16 +106,6 @@ Trong ví dụ này, ta đặt tên phụ đứng trước và có đầy đủ 
   <img src="https://user-images.githubusercontent.com/31346263/187585057-09fb19f4-d235-4aee-94e7-0d192d5c8846.png"/>
 </p>
 
-Tiếp theo, thầy cô có thể chọn loại máy điện thoại thầy cô muốn lưu vào, có 2 lựa chọn là Android và iOS:
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187585201-c2590462-7d01-42cd-a37d-ea4515c553d4.png"/>
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187585285-9b3ace2f-9f63-4694-bed8-6921c9b9f419.png"/>
-</p>
-
 Cuối cùng, thầy cô bấm vào nút "Chuyển đổi" rồi thầy cô đặt tên và chọn nơi lưu file danh bạ:
 
 <p align="center">
