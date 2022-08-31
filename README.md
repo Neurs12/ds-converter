@@ -83,7 +83,7 @@ Khởi chạy "DS Converter.exe" đã có:
 Phần mềm sẽ có giao diện đơn giản như sau:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187578626-ed40a12f-0359-4a9a-bf43-71c1d750584b.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187636315-1649d62a-44e8-41d0-a8d3-ea84ed0f14f0.png"/>
 </p>
 
 Đầu tiên, thầy cô bấm vào nút "Chọn tệp" ở trên cùng và chọn file danh sách học sinh đã tải về:
@@ -100,16 +100,16 @@ Khi đã chọn xong, nếu nút "Chọn tệp" có dấu tích thì có nghĩa 
 
 Chuyển sang phần đặt tên danh bạ, thầy cô có thể tùy biến, thay đổi cách lưu tên danh bạ, mặc định là "Phụ huynh <Tên đệm + tên học sinh>"
 
-Trong ví dụ này, ta đặt tên phụ đứng trước và có đầy đủ họ và tên:
+Ví dụ, thay chữ "Phụ huynh" thành "PH 8D":
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187585057-09fb19f4-d235-4aee-94e7-0d192d5c8846.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187638760-a9cb4229-dffe-4783-8de8-c00cfcf07aa6.png"/>
 </p>
 
 Cuối cùng, thầy cô bấm vào nút "Chuyển đổi" rồi thầy cô đặt tên và chọn nơi lưu file danh bạ:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187585521-5832e9b1-64c3-42f5-a0c0-b871ac72b125.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187637219-3600abaa-d6b2-429f-b9eb-034da458198d.png"/>
 </p>
 
 Khi đã chọn xong, phần mềm sẽ lưu file danh bạ và thông báo cho thầy cô:
@@ -119,7 +119,7 @@ Khi đã chọn xong, phần mềm sẽ lưu file danh bạ và thông báo cho 
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187586188-58062089-309d-41c6-81b6-9ed5b0191ccf.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187637441-45511d83-129a-4912-bd3c-8b9766b1eb22.png"/>
 </p>
 
 ## 4. Tải lên Google Contacts (Android) hoặc iCloud Contacts (iOS)
@@ -148,26 +148,26 @@ Nó sẽ hiện lên giao diện nhập danh bạ:
 Bấm vào "Chọn tệp" và chọn file danh bạ thầy cô đã lưu trước đó:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187587824-593cd44b-f699-46a5-85ce-61e206570a8a.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187637829-835be374-4971-438e-a479-56cd0bc87df0.png"/>
 </p>
 
-Cuối cùng, bấm vào nhập ở góc phải:
+Cuối cùng, bấm vào "Nhập" ở góc phải:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187587907-f869de6f-f464-4195-94f7-c4c306e1769a.png"/>
+  <img src="hhttps://user-images.githubusercontent.com/31346263/187637995-550df7dc-82a1-4076-9752-a2b987db0306.png"/>
 </p>
 
 Sẽ có thông báo đang nhập danh bạ:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187588062-1d8c5f93-d20c-4ff6-badb-857731f5ce35.png"/>
-  <img src="https://user-images.githubusercontent.com/31346263/187588072-4c68cb0e-6fcc-4ea8-9a35-731b7c283f56.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187638289-8eb4ef0c-3221-487b-927a-48257e193d4e.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187638302-8b4f82f6-8d95-4306-a1bb-6a73a35e40f5.png"/>
 </p>
 
 Khi thành công, giao diện sẽ mở ra danh sách danh bạ đã nhập, đợi một lúc sau, điện thoại của thầy cô sẽ được động bộ và cập nhật danh bạ:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187588763-eb0c317f-1a55-4c49-9686-e9b095e91085.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187638457-d99e50ae-1b7d-4bda-9148-a111cea8c834.png"/>
 </p>
 
 ### Với iOS:
