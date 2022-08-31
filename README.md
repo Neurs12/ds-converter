@@ -134,7 +134,7 @@ Khi đã chọn xong, phần mềm sẽ lưu file danh bạ và thông báo cho 
 
 ## 4. Tải lên Google Contacts (Android) hoặc iCloud Contacts (iOS)
 
-#### Thầy cô vào [đây](https://github.com/Neurs12/ds-converter#v%E1%BB%9Bi-android) nếu đang sử dụng Android, vào [đây](https://www.icloud.com/contacts/) nếu đang sử dụng iOS.
+#### Thầy cô vào [đây](https://github.com/Neurs12/ds-converter#v%E1%BB%9Bi-android) nếu đang sử dụng Android, vào [đây](https://github.com/Neurs12/ds-converter/blob/main/README.md#v%E1%BB%9Bi-ios) nếu đang sử dụng iOS.
 ### Với Android:
 
 Thầy cô đăng nhập vào [Google Contacts](https://contacts.google.com/) trùng với tài khoản Gmail có trên điện thoại sẽ có giao diện:
