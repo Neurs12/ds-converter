@@ -23,7 +23,7 @@ Khi giải nén ra, ta thấy có những file và thư mục:
 </p>
 
 ## 2. Cách lấy danh sách học sinh trên VNEdu
-### [(Nếu thầy cô đã có file danh sách học sinh mẫu 1 hoặc đã biết cách tải và đã tải về rồi, thầy cô có thể bấm vào đây để bỏ qua phần này)](https://github.com/Neurs12/ds-converter/edit/main/README.md#3-ch%E1%BA%A1y--s%E1%BB%AD-d%E1%BB%A5ng-ph%E1%BA%A7n-m%E1%BB%81m)
+### [(Nếu thầy cô đã có file danh sách học sinh mẫu 1 hoặc đã biết cách tải và đã tải về rồi, thầy cô có thể bấm vào đây để bỏ qua phần này)](https://github.com/Neurs12/ds-converter#3-ch%E1%BA%A1y--s%E1%BB%AD-d%E1%BB%A5ng-ph%E1%BA%A7n-m%E1%BB%81m)
 
 Những thông tin có trong ảnh đã được che lại để đảm bảo an toàn
 
