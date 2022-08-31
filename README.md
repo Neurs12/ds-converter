@@ -1,7 +1,9 @@
-# DS Converter
+<h1 align="center">
+  DS Converter
+</h1>
+<p align="center">
 Chuyển danh sách học sinh sang danh bạ từ VNEdu hoặc SMAS.
-
-Vì VNEdu và SMAS không có tính năng tích hợp sẵn, làm khó khăn cho những thầy cô nào muốn lưu danh bạ của một lớp.
+</p>
 
 ## 1. Cách tải
 Chọn bản mới nhất ở phần "Releases" bên phải:
