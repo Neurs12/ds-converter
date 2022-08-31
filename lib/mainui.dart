@@ -37,7 +37,6 @@ class _UIState extends State<UI> {
   String selectedProvider = "VNEdu";
   String selectedNameSetting = "Tên đệm + tên học sinh";
   String selectedNamePut = "Tên phụ đứng trước";
-  String selectedTargetSystem = "Android (Samsung, LG, Xiaomi,...)";
   bool isDone = false;
   late TextEditingController extraText;
   late Widget selectFileIcon =
@@ -64,7 +63,10 @@ class _UIState extends State<UI> {
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text(selectedFile),
+          Container(
+              padding: EdgeInsets.only(
+                  bottom: MediaQuery.of(context).size.height / 100),
+              child: Text(selectedFile)),
           SizedBox(
               width: MediaQuery.of(context).size.width / 8,
               height: MediaQuery.of(context).size.height / 20,
@@ -161,31 +163,6 @@ class _UIState extends State<UI> {
                         : "Ví dụ: <$selectedNameSetting> ${extraText.text}")),
           ),
           Container(
-              padding:
-                  EdgeInsets.only(top: MediaQuery.of(context).size.height / 50),
-              child: Text("Loại máy điện thoại muốn lưu danh bạ vào",
-                  style: TextStyle(
-                      fontSize: MediaQuery.of(context).size.height / 50))),
-          DropdownButton<String>(
-            value: selectedTargetSystem,
-            icon: const Icon(Icons.expand_more),
-            elevation: 16,
-            onChanged: (String? newValue) {
-              setState(() {
-                selectedTargetSystem = newValue!;
-              });
-            },
-            items: <String>[
-              "Android (Samsung, LG, Xiaomi,...)",
-              "iOS (iPhone)",
-            ].map<DropdownMenuItem<String>>((String value) {
-              return DropdownMenuItem<String>(
-                value: value,
-                child: Text(value),
-              );
-            }).toList(),
-          ),
-          Container(
               padding: EdgeInsets.only(
                   left: MediaQuery.of(context).size.width / 5,
                   right: MediaQuery.of(context).size.width / 5,
@@ -201,69 +178,33 @@ class _UIState extends State<UI> {
                             fontSize: MediaQuery.of(context).size.height / 60)),
                     onPressed: isDone
                         ? () {
-                            if (selectedTargetSystem ==
-                                "Android (Samsung, LG, Xiaomi,...)") {
-                              FilePicker.platform.saveFile(
-                                  dialogTitle: "Lưu danh bạ",
-                                  type: FileType.custom,
-                                  allowedExtensions: ["csv"]).then((result) {
-                                if (result != null) {
-                                  var proc = Process.runSync(
-                                      "contacts_filter\\contacts_filter.exe", [
-                                    "--convert",
-                                    selectedFile,
-                                    "--saveat",
-                                    result,
-                                    "--systype",
-                                    selectedTargetSystem,
-                                    "--extratext",
-                                    extraText.text,
-                                    "--namesetting",
-                                    selectedNameSetting,
-                                    "--sort",
-                                    selectedNamePut
-                                  ]);
-                                  if (proc.stdout.startsWith("success")) {
-                                    ScaffoldMessenger.of(context)
-                                        .showSnackBar(SnackBar(
-                                      content: Text(
-                                          "Chuyển đổi và lưu danh bạ thành công. Đã chuyển được ${proc.stdout.replaceAll(RegExp(r'success '), '')} danh bạ!"),
-                                    ));
-                                  }
+                            FilePicker.platform.saveFile(
+                                dialogTitle: "Lưu danh bạ",
+                                type: FileType.custom,
+                                allowedExtensions: ["vcf"]).then((result) {
+                              if (result != null) {
+                                var proc = Process.runSync(
+                                    "contacts_filter\\contacts_filter.exe", [
+                                  "--convert",
+                                  selectedFile,
+                                  "--saveat",
+                                  result,
+                                  "--extratext",
+                                  extraText.text,
+                                  "--namesetting",
+                                  selectedNameSetting,
+                                  "--sort",
+                                  selectedNamePut
+                                ]);
+                                if (proc.stdout.startsWith("success")) {
+                                  ScaffoldMessenger.of(context)
+                                      .showSnackBar(SnackBar(
+                                    content: Text(
+                                        "Chuyển đổi và lưu danh bạ thành công. Đã chuyển được ${proc.stdout.replaceAll(RegExp(r'success '), '')} danh bạ!"),
+                                  ));
                                 }
-                              });
-                            }
-                            if (selectedTargetSystem == "iOS (iPhone)") {
-                              FilePicker.platform.saveFile(
-                                  dialogTitle: "Lưu danh bạ",
-                                  type: FileType.custom,
-                                  allowedExtensions: ["vcf"]).then((result) {
-                                if (result != null) {
-                                  var proc = Process.runSync(
-                                      "contacts_filter\\contacts_filter.exe", [
-                                    "--convert",
-                                    selectedFile,
-                                    "--saveat",
-                                    result,
-                                    "--systype",
-                                    selectedTargetSystem,
-                                    "--extratext",
-                                    extraText.text,
-                                    "--namesetting",
-                                    selectedNameSetting,
-                                    "--sort",
-                                    selectedNamePut
-                                  ]);
-                                  if (proc.stdout.startsWith("success")) {
-                                    ScaffoldMessenger.of(context)
-                                        .showSnackBar(SnackBar(
-                                      content: Text(
-                                          "Chuyển đổi và lưu danh bạ thành công. Đã chuyển được ${proc.stdout.replaceAll(RegExp(r'success '), '')} danh bạ!"),
-                                    ));
-                                  }
-                                }
-                              });
-                            }
+                              }
+                            });
                           }
                         : null,
                   )))
