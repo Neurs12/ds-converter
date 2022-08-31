@@ -13,7 +13,7 @@ Chọn bản mới nhất ở phần "Releases" bên phải:
 Bấm tải file "DS.Converter.zip":
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/31346263/187576839-d88965a1-79f4-4b2c-8b76-66665e9347f7.png"/>
+  <img src="https://user-images.githubusercontent.com/31346263/187590110-45ce49fb-9b61-49b7-bca9-07d0825040a7.png"/>
 </p>
 
 Khi giải nén ra, ta thấy có những file và thư mục:
